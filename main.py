@@ -1,7 +1,7 @@
 import tkinter as tk
 from estadoPofi import ClsPersonaje
 
-
+#se inicializa desde este archivo
 class ClsVentana():
 
     def __init__(self):

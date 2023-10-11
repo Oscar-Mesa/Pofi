@@ -4,11 +4,10 @@ class ClsPersonaje():
 
     def fntPersonaje(self,ventana):
 
-        self.pofiFrente="shimeji.gif"
+        self.pofiFrente="shimeji_1.gif"
 
-        self.frames = 18  # gives total number of frames that gif contains
+        self.frames = 18  
 
-        # creating list of PhotoImage objects for each frames
         self.mostrarImagenes = [tk.PhotoImage(file=self.pofiFrente,format=f"gif -index {i}") for i in range(self.frames)]
 
         self.contador = 0
